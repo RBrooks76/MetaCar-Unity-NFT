@@ -1,0 +1,5 @@
+To run the server applications, you need to download and install Node.JS to your system.
+
+Then run "npm install" in the folder extracted from this zip file to install all dependencies (they will be downloadede to this directory).
+
+To run the server, execute "node filename.js" - replace with the actual filename.

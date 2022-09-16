@@ -1,0 +1,192 @@
+fileFormatVersion: 2
+guid: 324b17a27c618c544ade69793e10fddb
+timeCreated: 1462832145
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BL
+    100002: Body
+    100004: BR
+    100006: //RootNode
+    100008: Collider
+    100010: FL
+    100012: FR
+    100014: RL
+    100016: RR
+    100018: SteeringWheel
+    100020: Camera
+    100022: Lamp
+    100024: SideMirrors
+    100026: Spoiler
+    100028: Colldier
+    100030: Body.001
+    100032: Colldier.001
+    100034: FL.001
+    100036: FR.001
+    100038: RL.001
+    100040: RR.001
+    100042: SideMirrors.001
+    100044: Spoiler.001
+    100046: SteeringWheel.001
+    100048: BrakelightMesh
+    100050: Grid
+    400000: BL
+    400002: Body
+    400004: BR
+    400006: //RootNode
+    400008: Collider
+    400010: FL
+    400012: FR
+    400014: RL
+    400016: RR
+    400018: SteeringWheel
+    400020: Camera
+    400022: Lamp
+    400024: SideMirrors
+    400026: Spoiler
+    400028: Colldier
+    400030: Body.001
+    400032: Colldier.001
+    400034: FL.001
+    400036: FR.001
+    400038: RL.001
+    400040: RR.001
+    400042: SideMirrors.001
+    400044: Spoiler.001
+    400046: SteeringWheel.001
+    400048: BrakelightMesh
+    400050: Grid
+    2300000: BL
+    2300002: Body
+    2300004: BR
+    2300006: Collider
+    2300008: FL
+    2300010: FR
+    2300012: RL
+    2300014: RR
+    2300016: SteeringWheel
+    2300018: SideMirrors
+    2300020: Spoiler
+    2300022: Colldier
+    2300024: Body.001
+    2300026: Colldier.001
+    2300028: FL.001
+    2300030: FR.001
+    2300032: RL.001
+    2300034: RR.001
+    2300036: SideMirrors.001
+    2300038: Spoiler.001
+    2300040: SteeringWheel.001
+    2300042: BrakelightMesh
+    2300044: Grid
+    3300000: BL
+    3300002: Body
+    3300004: BR
+    3300006: Collider
+    3300008: FL
+    3300010: FR
+    3300012: RL
+    3300014: RR
+    3300016: SteeringWheel
+    3300018: SideMirrors
+    3300020: Spoiler
+    3300022: Colldier
+    3300024: Body.001
+    3300026: Colldier.001
+    3300028: FL.001
+    3300030: FR.001
+    3300032: RL.001
+    3300034: RR.001
+    3300036: SideMirrors.001
+    3300038: Spoiler.001
+    3300040: SteeringWheel.001
+    3300042: BrakelightMesh
+    3300044: Grid
+    4300000: Collider
+    4300002: FL
+    4300004: BL
+    4300006: BR
+    4300008: FR
+    4300010: Body
+    4300012: SteeringWheel
+    4300014: RR
+    4300016: RL
+    4300018: SideMirrors
+    4300020: Spoiler
+    4300022: Colldier
+    4300024: SideMirrors.001
+    4300026: SteeringWheel.001
+    4300028: Spoiler.001
+    4300030: FR.001
+    4300032: RR.001
+    4300034: RL.001
+    4300036: FL.001
+    4300038: Body.001
+    4300040: Colldier.001
+    4300042: BrakelightMesh
+    4300044: Grid
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

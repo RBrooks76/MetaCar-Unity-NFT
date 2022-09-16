@@ -1,0 +1,16 @@
+v1.1.0 Update Notes
+------------------------------------------------------------------------------------------------------------
+• If you are updating your project from a previous version of RGSK, you may get the following errors :
+
+    1) Assets/RacingGameStarterKit/Scripts/Misc/VehicleUpgrades.cs(10,13): error CS0246: The type or namespace name `Car_Controller' could not be found. Are you missing a using directive or an assembly reference?
+	
+	2) Assets/RacingGameStarterKit/Scripts/Race/Others/ReplayCamera.cs(14,33): error CS0246: The type or namespace name `PlayerCamera' could not be found. Are you missing a using directive or an assembly reference?
+
+	If so, delete the following scripts from your Project Files :
+	
+	- ReplayCamera.cs (RacingGameStarterKit/Scripts/Race/Others/ReplayCamera.cs)
+	- VehicleUpgrades.cs (RacingGameStarterKit/Scripts/Misc/VehicleUpgrade.cs)
+
+• Check out the documentation on the new RGSK components and adapt your scenes to them.
+
+------------------------------------------------------------------------------------------------------------

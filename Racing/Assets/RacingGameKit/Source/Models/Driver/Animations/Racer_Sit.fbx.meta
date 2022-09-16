@@ -1,0 +1,505 @@
+fileFormatVersion: 2
+guid: c4e845f5e7ee9ae40b59b1c93303fa8e
+timeCreated: 1469229116
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Camera
+    100002: Chest
+    100004: Chest2
+    100006: Head
+    100008: Head_end
+    100010: Hips
+    100012: Lamp
+    100014: LeftAnkle
+    100016: LeftAnkle_end
+    100018: LeftCollar
+    100020: LeftElbow
+    100022: LeftHip
+    100024: LeftKnee
+    100026: LeftShoulder
+    100028: LeftWrist
+    100030: LeftWrist_end
+    100032: Neck
+    100034: RightAnkle
+    100036: RightAnkle_end
+    100038: RightCollar
+    100040: RightElbow
+    100042: RightHip
+    100044: RightKnee
+    100046: RightShoulder
+    100048: RightWrist
+    100050: RightWrist_end
+    100052: //RootNode
+    100054: sitdown_standup-16-reseat-takiguchi
+    400000: Camera
+    400002: Chest
+    400004: Chest2
+    400006: Head
+    400008: Head_end
+    400010: Hips
+    400012: Lamp
+    400014: LeftAnkle
+    400016: LeftAnkle_end
+    400018: LeftCollar
+    400020: LeftElbow
+    400022: LeftHip
+    400024: LeftKnee
+    400026: LeftShoulder
+    400028: LeftWrist
+    400030: LeftWrist_end
+    400032: Neck
+    400034: RightAnkle
+    400036: RightAnkle_end
+    400038: RightCollar
+    400040: RightElbow
+    400042: RightHip
+    400044: RightKnee
+    400046: RightShoulder
+    400048: RightWrist
+    400050: RightWrist_end
+    400052: //RootNode
+    400054: sitdown_standup-16-reseat-takiguchi
+    7400000: Racer_Sit
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Racer_Sit
+      takeName: sitdown_standup-16-reseat-takiguchi|sitdown_standup-16-reseat-takiguchi
+      firstFrame: 772
+      lastFrame: 826
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 0
+      - path: Lamp
+        weight: 0
+      - path: sitdown_standup-16-reseat-takiguchi
+        weight: 1
+      - path: sitdown_standup-16-reseat-takiguchi/Hips
+        weight: 1
+      - path: sitdown_standup-16-reseat-takiguchi/Hips/Chest
+        weight: 1
+      - path: sitdown_standup-16-reseat-takiguchi/Hips/Chest/Chest2
+        weight: 1
+      - path: sitdown_standup-16-reseat-takiguchi/Hips/Chest/Chest2/LeftCollar
+        weight: 1
+      - path: sitdown_standup-16-reseat-takiguchi/Hips/Chest/Chest2/LeftCollar/LeftShoulder
+        weight: 1
+      - path: sitdown_standup-16-reseat-takiguchi/Hips/Chest/Chest2/LeftCollar/LeftShoulder/LeftElbow
+        weight: 1
+      - path: sitdown_standup-16-reseat-takiguchi/Hips/Chest/Chest2/LeftCollar/LeftShoulder/LeftElbow/LeftWrist
+        weight: 1
+      - path: sitdown_standup-16-reseat-takiguchi/Hips/Chest/Chest2/LeftCollar/LeftShoulder/LeftElbow/LeftWrist/LeftWrist_end
+        weight: 0
+      - path: sitdown_standup-16-reseat-takiguchi/Hips/Chest/Chest2/Neck
+        weight: 1
+      - path: sitdown_standup-16-reseat-takiguchi/Hips/Chest/Chest2/Neck/Head
+        weight: 1
+      - path: sitdown_standup-16-reseat-takiguchi/Hips/Chest/Chest2/Neck/Head/Head_end
+        weight: 0
+      - path: sitdown_standup-16-reseat-takiguchi/Hips/Chest/Chest2/RightCollar
+        weight: 1
+      - path: sitdown_standup-16-reseat-takiguchi/Hips/Chest/Chest2/RightCollar/RightShoulder
+        weight: 1
+      - path: sitdown_standup-16-reseat-takiguchi/Hips/Chest/Chest2/RightCollar/RightShoulder/RightElbow
+        weight: 1
+      - path: sitdown_standup-16-reseat-takiguchi/Hips/Chest/Chest2/RightCollar/RightShoulder/RightElbow/RightWrist
+        weight: 1
+      - path: sitdown_standup-16-reseat-takiguchi/Hips/Chest/Chest2/RightCollar/RightShoulder/RightElbow/RightWrist/RightWrist_end
+        weight: 0
+      - path: sitdown_standup-16-reseat-takiguchi/Hips/LeftHip
+        weight: 1
+      - path: sitdown_standup-16-reseat-takiguchi/Hips/LeftHip/LeftKnee
+        weight: 1
+      - path: sitdown_standup-16-reseat-takiguchi/Hips/LeftHip/LeftKnee/LeftAnkle
+        weight: 1
+      - path: sitdown_standup-16-reseat-takiguchi/Hips/LeftHip/LeftKnee/LeftAnkle/LeftAnkle_end
+        weight: 0
+      - path: sitdown_standup-16-reseat-takiguchi/Hips/RightHip
+        weight: 1
+      - path: sitdown_standup-16-reseat-takiguchi/Hips/RightHip/RightKnee
+        weight: 1
+      - path: sitdown_standup-16-reseat-takiguchi/Hips/RightHip/RightKnee/RightAnkle
+        weight: 1
+      - path: sitdown_standup-16-reseat-takiguchi/Hips/RightHip/RightKnee/RightAnkle/RightAnkle_end
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftHip
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightHip
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftKnee
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightKnee
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftAnkle
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightAnkle
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chest
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chest2
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftCollar
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightCollar
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftShoulder
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightShoulder
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftElbow
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightElbow
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftWrist
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightWrist
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: sit(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Camera
+      position: {x: -7.4811316, y: 5.343665, z: 6.5076394}
+      rotation: {x: 0.21061137, y: 0.90524006, z: -0.089281626, w: -0.35806713}
+      scale: {x: 99.99999, y: 100.00001, z: 100}
+      transformModified: 1
+    - name: Lamp
+      position: {x: -4.0762453, y: 5.903862, z: -1.005454}
+      rotation: {x: 0.16907571, y: -0.75588036, z: 0.27217132, w: 0.57094747}
+      scale: {x: 100.000015, y: 100, z: 100.00001}
+      transformModified: 1
+    - name: sitdown_standup-16-reseat-takiguchi
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+      transformModified: 1
+    - name: Hips
+      position: {x: 0.000000019073486, y: -0.000000052533377, z: 0.40068188}
+      rotation: {x: 0.7070034, y: -0.0054817493, z: -0.0010112679, w: 0.70718825}
+      scale: {x: 0.99999994, y: 1, z: 1}
+      transformModified: 1
+    - name: Chest
+      position: {x: -0.00000007472932, y: 0.04569997, z: 4.4703483e-10}
+      rotation: {x: -0.04173967, y: 0.0027066886, z: -0.0015488298, w: 0.9991237}
+      scale: {x: 1, y: 1, z: 0.99999994}
+      transformModified: 1
+    - name: Chest2
+      position: {x: -0.00000000346452, y: 0.0657, z: 9.685754e-10}
+      rotation: {x: 0.09965065, y: 0.0021060123, z: -0.0019022429, w: 0.9950185}
+      scale: {x: 1, y: 1, z: 0.99999994}
+      transformModified: 1
+    - name: LeftCollar
+      position: {x: -0.010599992, y: 0.045110192, z: 0.0055175372}
+      rotation: {x: -0.11410986, y: 0.07614851, z: 0.6312719, w: 0.76333225}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+      transformModified: 1
+    - name: LeftShoulder
+      position: {x: -0.00000006318092, y: 0.058100004, z: -5.9604643e-10}
+      rotation: {x: 0.024587065, y: 0.121138684, z: 0.083347216, w: 0.98882467}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
+      transformModified: 1
+    - name: LeftElbow
+      position: {x: 0.000000035762785, y: 0.12080004, z: 0.000000017881392}
+      rotation: {x: 0.017139565, y: -0.13456152, z: 0.018206755, w: 0.9905897}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+      transformModified: 1
+    - name: LeftWrist
+      position: {x: -0.000000027567147, y: 0.09820005, z: 0.0000000047683715}
+      rotation: {x: -0.007514686, y: -0.00000057145223, z: 0.011023132, w: 0.999911}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+      transformModified: 1
+    - name: LeftWrist_end
+      position: {x: -0, y: 0.073699996, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Neck
+      position: {x: 5.750917e-10, y: 0.03896763, z: -0.011035082}
+      rotation: {x: 0.014920533, y: 0.00015319561, z: 0.0000059880754, w: 0.9998887}
+      scale: {x: 1, y: 1, z: 1.0000001}
+      transformModified: 1
+    - name: Head
+      position: {x: 0.0000000064121557, y: 0.051899944, z: 0.000000016903504}
+      rotation: {x: -0.027111541, y: -0.00029364694, z: 0.00060077664, w: 0.99963224}
+      scale: {x: 1, y: 0.99999994, z: 0.9999999}
+      transformModified: 1
+    - name: Head_end
+      position: {x: -0, y: 0.04140011, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightCollar
+      position: {x: 0.010599992, y: 0.045110185, z: 0.005517538}
+      rotation: {x: -0.11859138, y: -0.07165548, z: -0.6335303, w: 0.7612102}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightShoulder
+      position: {x: -0.000000034570693, y: 0.060599983, z: -0.000000005066395}
+      rotation: {x: -0.0090006, y: -0.06309231, z: -0.06334758, w: 0.9959546}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+      transformModified: 1
+    - name: RightElbow
+      position: {x: 0.000000007152557, y: 0.110800005, z: 0.0000000017136335}
+      rotation: {x: 0.012107883, y: 0.0881305, z: -0.021488022, w: 0.99580353}
+      scale: {x: 1, y: 0.9999999, z: 1}
+      transformModified: 1
+    - name: RightWrist
+      position: {x: -0.0000000333786, y: 0.09819999, z: -0.000000013113022}
+      rotation: {x: -0.0102958605, y: -0.00000004354242, z: -0.0019486948, w: 0.9999451}
+      scale: {x: 1, y: 0.99999994, z: 1}
+      transformModified: 1
+    - name: RightWrist_end
+      position: {x: -0, y: 0.07140009, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftHip
+      position: {x: -0.03430001, y: -0.00000008624047, z: -0.0000000026356428}
+      rotation: {x: -0.051070165, y: -0.013643932, z: 0.9968464, w: 0.059185788}
+      scale: {x: 1, y: 0.99999994, z: 1}
+      transformModified: 1
+    - name: LeftKnee
+      position: {x: 0.0000000017881393, y: 0.18469998, z: 0.000000008642673}
+      rotation: {x: -0.010612637, y: 0.08826553, z: -0.014091823, w: 0.9959408}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+      transformModified: 1
+    - name: LeftAnkle
+      position: {x: 0.0000000011920929, y: 0.1795, z: -0.000000012591481}
+      rotation: {x: 0.06298936, y: -0.697548, z: 0.03973766, w: 0.71265715}
+      scale: {x: 1, y: 0.99999994, z: 1}
+      transformModified: 1
+    - name: LeftAnkle_end
+      position: {x: -0, y: 0.031200018, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightHip
+      position: {x: 0.034299996, y: 0.000000026654451, z: -0.00000000433065}
+      rotation: {x: 0.053255647, y: -0.009876289, z: 0.99789125, w: -0.03576775}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightKnee
+      position: {x: -0.0000000023841857, y: 0.18469998, z: 0.00000001579523}
+      rotation: {x: -0.029921032, y: -0.10528547, z: 0.008716028, w: 0.9939536}
+      scale: {x: 0.99999994, y: 1, z: 1}
+      transformModified: 1
+    - name: RightAnkle
+      position: {x: -0.000000008940696, y: 0.17950003, z: 0.0000000020861626}
+      rotation: {x: 0.027840436, y: -0.000000014901163, z: -0.051894035, w: 0.99826443}
+      scale: {x: 1, y: 0.9999998, z: 0.9999999}
+      transformModified: 1
+    - name: RightAnkle_end
+      position: {x: -0, y: 0.031200018, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

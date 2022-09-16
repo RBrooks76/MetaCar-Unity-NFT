@@ -1,0 +1,273 @@
+v 1.0.0
+
+Initial version
+----------------------------------------------------------------------------------------
+v 1.0.1 
+
+Additions/Changes :
+
+• Slipstream capability
+• New racer name prefab
+• Improved AI
+
+Fixes :
+
+• Minor bug fixes
+----------------------------------------------------------------------------------------
+v 1.0.2 
+
+Additions/Changes :
+
+• Improved AI (New behavior)
+• Improved car physics
+• Boost, steer helper,  traction & steering wheel options added to Car_Controller.cs
+• Brake Input added
+• Brakezones depreciated
+• Multiple camera views
+• More template cars
+• Text fader(TextAlpha.cs)
+• Cars now load from Resources/PlayerCars folder
+
+Fixes :
+
+• Minor bug fixes
+----------------------------------------------------------------------------------------
+v 1.0.3 
+
+Additions/Changes :
+
+• Wheel surface detection added to Wheels.cs
+• Speedometer UI support
+• InputType & SteerType enums added to PlayerControl.cs for easier setup.
+
+Fixes :
+
+• Minor bug fixes
+----------------------------------------------------------------------------------------
+v 1.0.3b
+
+Additions/Changes :
+
+• Display formats added to RacerName.cs
+
+Fixes :
+
+• AI respawn bug after race completion
+• AI input bug
+----------------------------------------------------------------------------------------
+v 1.0.4
+
+Additions/Changes :
+
+• TimeTrial race type
+• Ghost car
+• Track selection
+• Screen fade in / out
+• Race countdown delay option added
+• Mobile UI prefab for even easier mobile setup
+• Waypoint arrow support(WaypointArrow.cs)
+• RaceManager.cs FormatTime() used to format time strings
+• RaceUI displays "Running..." or "Knocked out" for an AI that hasn't finished or has been knocked out
+• Added 'time' param to RaceUI.ShowRaceInfo() routine
+• Path creator & Spawnpoint container are now created at the scene view cam position rather than (0,0,0)
+
+Fixes :
+
+• Minor bug fixes
+----------------------------------------------------------------------------------------
+v 1.0.5
+
+Additions/Changes :
+
+• Speed Trap race type
+• Improved AI
+• RaceUI in-race standings
+• Checkpoints(Speedtrap)
+• Minor changes made to RaceManager / RaceUI Custom Inspector
+• Wrongway respawn option added to Car_Controller.cs
+• RaceManager CompleteRace() replaced with EndRace()
+• New F1 car prefabs(Black, Orange & Yellow)
+
+Fixes :
+
+• Fixed bugs with the RankManager.cs racerRanks List
+• Fixed a wrong way detection bug
+• Fixed a ghost bug with vehicles that have multiple materials
+• Fixed a bug where the ghost vehicle would emit skid particles
+----------------------------------------------------------------------------------------
+v 1.0.6
+
+Additions/Changes :
+
+• Checkpoints race type
+• Currency, Reward & Unlock systems
+• Respawning racers now handled by RaceManager RespawnRacer() method
+• Force Wrongway Respawn option added to RaceManager
+• "TimeCheckpoint" Checkpoint Type for Checkpoint races
+• EVP support
+• RaceUI ShowRaceInfo() now called by just "RaceUI.instance.ShowRaceInfo(string, time)"
+• Improved efficiency with RaceUI script (Panel activation not called every frame)
+• Improved menu script
+• Wheels.cs improvements for eaiser setup
+• Overall better performance
+• Pause & Respawn buttons added to Mobile UI prefab.
+
+Fixes :
+
+• Fixed a minor issue with ProgressTracker.cs that would throw errors on Start.
+----------------------------------------------------------------------------------------
+v 1.0.6b
+
+Additions/Changes :
+
+• 3D speed text option to RaceUI
+• 3D Text Shader for 3D texts
+• 3D speedo text added to F1 car prefabs
+
+Fixes :
+
+• Minor issue that would set the TimeScale to 0 when trying to restart or go back to the menu.
+----------------------------------------------------------------------------------------
+v 1.0.7
+
+Additions/Changes :
+
+• Save as prefab option added to Car Setup Wizard
+• Option to start countdown from a number of your choice
+• "Load Race Preferences" now added to RaceManager - use this bool to load your data with an active DataLoader present.
+• MobileControlManager.cs - handles mobile control types (touch or tilt steer)
+• Nitro added to Car_Controller.cs
+• Few changes made to the RaceManager inspector
+• Improved Car_Controller options
+• Improved spawn options for player & AI racers
+• Improved menu template
+
+Fixes :
+
+• fixed a bug where setting Input type to Automatic wouldn't work on mobile
+• fixed a bug where player preferences from DataLoader.cs wouldn't be loaded to the RaceManager
+• fixed a bug where ai would be assigned the same names
+• fixed an issue with slipstream rays
+----------------------------------------------------------------------------------------
+v 1.0.7a (hotfix)
+
+Additions/Changes :
+
+• Nitro UI button added to MobileUI prefab
+• Mobile nitro input support in PlayerControl.cs
+
+Fixes :
+
+• fixed a minor bug with the nitro system
+• fixed a bug where sound would remain muted after un-pausing
+----------------------------------------------------------------------------------------
+v 1.0.8
+
+Additions/Changes :
+
+• Motorbike physics
+• Replay system
+• RCC & UnityCar 2.2 support
+• Improved menu system(MenuManager.cs)
+• Vehicle Setup Wizard (previously Car Setup Wizard)
+• Player cars/motorbikes now loaded from a "Resources/PlayerVehicles" folder. Previously, this folder was named "PlayerCars"
+• Configured AI vehicle prefabs now saved under a "Prefabs/AIVehicle" folder
+
+Fixes :
+
+• fixed a bug with ghost vehicles (arose in 1.0.7)
+----------------------------------------------------------------------------------------
+v 1.0.9
+
+Additions/Changes :
+
+• Elimination race type
+• Skidmarks
+• Ai can now use nitro
+• Improved nitro settings & better nitro prefab effect
+• Improved replay and ghost systems (record/playback wheel steer)
+• Node layout mode in Path Creator
+• Minimap pointers rotate with the racer
+• RaceUI colors for in race standings texts
+• First person driver camera (PlayerFPCamera.cs)
+• Auto acceleration option
+• Material settings for ghost vehicles
+• Path creator "Align to ground" functionality
+• RaceUI now stacks raceInfo strings and shows them one after another
+• Separate skid audio sources are created for each wheel
+• Wheels.cs now uses the shruiken particle system for slip prefabs
+• Vehicle upgrade system (color & performance)
+• Rewired support
+
+Fixes :
+
+• fixed a minor bug with RankManager.cs
+• fixed a bug where motrobike speeds wouldn't be added on SpeedTrap race
+• fixed a minor bug with best time strings
+• fixed a bug where brakelight meshes would remain enabled on replays & ghost vehicles
+----------------------------------------------------------------------------------------
+v 1.0.9a
+
+Additions/Changes :
+
+• PathCreator OnSceneGUI button to toggle nodeLayoutMode
+• PathCreator no longer creates the first node automatically
+• PathCreator displays a wire cube to visualize the path parent
+• Enhanced SoundManager.cs music settings
+• Wrongway display delay timer
+
+Fixes :
+
+• Fixed an issue with ghost vehicle wheel rotations after the first lap
+----------------------------------------------------------------------------------------
+v 1.1.0
+
+Additions/Changes :
+
+• Drift race type
+• New replay system
+• Camera Manager
+• Surface Manager
+• Input Manager
+• IK controlled racer
+• Ai difficulty settings
+• Starting grid support
+• SoundManager default sounds and enhanced music settings
+• Wrongway image indication
+• Lap option in checkpoint races
+• Statistics.cs racer details
+• Enhanced player camera
+• Xbox360 controller support
+• Auto Drive option in Time Trial races
+• End race routine
+• Improved AI behaviour
+• Improved Player Camera
+• Improved vehicle physics
+• Improved RacerName components
+• Improved menu template
+• Fading race info text 
+• Option to auto start replay after finish
+• Option to assign AI/Player racer names
+• Vehicle name and best lap time texts can now be added to race results / starting grid
+• UIButton actions for easier mobile control setup
+• Added editor functions to configure AI/Player vehicles for external vehicle physics
+• Replaced Mesh Surface Detection with Physic Material based detection (Surface Manager)
+• Camera switching now handled by using ChildCameraPositions.cs script
+• Randomation Vehicle Physics 2.0 support
+• Removed vehicle performance upgrades
+• Added 'About' editor window
+• RGSK namespace added to all scripts
+----------------------------------------------------------------------------------------
+v 1.1.0a
+
+Additions/Changes :
+
+• InputManager handles input device detection
+• Camera input handled by the PlayerCamera
+
+Fixes :
+
+• Fixed a replay issue with the Unitycar 2.2 integration that wouldn't apply input values to vehicles
+• Fixed an issue with the mobile control manager that wouldn't assign UI Buttons
+• Fixed an issue with unlocking tracks & cars through the menu template
+• Fixed an bug with the assign player/ai name booleans in the RaceManager

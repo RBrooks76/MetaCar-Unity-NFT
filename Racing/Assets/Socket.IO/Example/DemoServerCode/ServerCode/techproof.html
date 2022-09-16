@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Technical proof for server function</title>
+	<script src="http://localhost:8123/socket.io/socket.io.js"></script>
+</head>
+<body>
+	<p>This implements a subset of the communication which our example scene does. This is made to prove, that the server actually works. We created this as a debug tool to ensure that the server does what we expect, as many requests ahve been opened which were traced down to server-side issues.</p>
+	<hr>
+	<pre id="output"></pre>
+	<script>
+		const sio = io("ws://localhost:8123", { transports: ["websocket"] }); //we are disabling longpolling for the test as native client does only support websocket
+		const o = document.getElementById('output');
+		function log(line) {
+			o.innerHTML += line + "\n";
+			console.log(line);
+		}
+		
+		window.onload = function () {
+			console.log("Starting test...");
+			
+			sio.on('connect', () => {
+				log('LOCAL: Hey, we are connected!');
+				sio.emit('KnockKnock');
+			});
+			
+			sio.on('WhosThere', () => {
+				log('RECEIVED a WhosThere event without payload data just as expected.');
+				sio.emit('ItsMe', {
+					version: 'FakeVersion'
+				});
+			});
+			
+			sio.on('Welcome', (payload) => {
+				log('SERVER: ' + payload);
+			});
+			
+			sio.on('TechData', (srv) => {
+				log("Received the POD name from the server. Upadting UI. Oh! It's " + srv.timestamp + " by the way."); //we do not acually update ui in the test app
+			});
+			
+			sio.on('disconnect', () => {
+				log('Disconnected from server.'); //we do not acually update ui in the test app
+				sio.close();
+			});
+		}
+	</script>
+</bod>
